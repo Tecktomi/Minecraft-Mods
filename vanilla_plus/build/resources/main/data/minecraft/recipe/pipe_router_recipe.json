@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "vanilla_plus:pipe",
+    "vanilla_plus:pipe",
+    "vanilla_plus:pipe"
+  ],
+  "result": {
+    "id": "vanilla_plus:pipe_router",
+    "count": 1
+  }
+}

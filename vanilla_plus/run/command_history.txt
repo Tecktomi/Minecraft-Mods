@@ -1,0 +1,2 @@
+/gamerule spawn_mobs false
+/recipe give Dev *

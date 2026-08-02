@@ -1,0 +1,16 @@
+{
+  "item.vanilla_plus.flip_flop": "Bit",
+  "item.vanilla_plus.flip_flop_on": "Flip Flop",
+  "item.vanilla_plus.and_gate_off": "And Gate",
+  "item.vanilla_plus.and_gate_on": "And Gate",
+  "block.vanilla_plus.flip_flop.description_0": "Alterna su salida entre 0 y 15 cada vez que la entrada pasa de 0 a un valor mayor",
+  "block.vanilla_plus.and_gate_off.description_0": "Emite señal solo si recibe señal por ambos lados",
+  "item.vanilla_plus.or_gate_off": "Or Gate",
+  "block.vanilla_plus.or_gate_off.description_0": "Emite señal si recibe señal por cualquiera de los lados",
+  "item.vanilla_plus.or_gate_on": "Or Gate",
+  "block.vanilla_plus.or_gate_on.description_0": "Emite señal solo si recibe señal por ambos lados",
+  "block.vanilla_plus.xor_gate_off.description_0": "Emite señal si recibe señal por solo un lado",
+  "item.vanilla_plus.xor_gate_off": "Xor Gate",
+  "item.vanilla_plus.xor_gate_on": "Xor Gate",
+  "block.vanilla_plus.xor_gate_on.description_0": "Emite señal solo si recibe señal por ambos lados"
+}

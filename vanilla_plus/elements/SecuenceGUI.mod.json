@@ -1,0 +1,83 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_push_0",
+          "text": "Push 0",
+          "isUndecorated": false,
+          "onClick": "SecuenceGUIPush0",
+          "width": 55,
+          "height": 20,
+          "x": 132,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_push_1",
+          "text": "Push 1",
+          "isUndecorated": false,
+          "onClick": "SecuenceGUIPush1",
+          "width": 55,
+          "height": 20,
+          "x": 132,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "",
+            "name": "SecuenceGUIText"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 132,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pop",
+          "text": "Pop",
+          "isUndecorated": false,
+          "onClick": "SecuenceGUIPop",
+          "displayCondition": "SecuenceGUIPopCondition",
+          "width": 40,
+          "height": 20,
+          "x": 249,
+          "y": 44,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

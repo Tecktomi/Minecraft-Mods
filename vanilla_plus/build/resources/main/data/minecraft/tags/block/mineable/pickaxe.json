@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vanilla_plus:drill",
+    "vanilla_plus:pipe_router",
+    "vanilla_plus:pipe",
+    "vanilla_plus:pipe_sorter"
+  ]
+}

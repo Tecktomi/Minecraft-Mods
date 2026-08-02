@@ -1,0 +1,95 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "flip_flop_off",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    },
+    "on": {
+      "name": "on",
+      "map": {
+        "0": "flip_flop_on",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    },
+    "and_off": {
+      "name": "and_off",
+      "map": {
+        "0": "and_gate_off",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    },
+    "and_on": {
+      "name": "and_on",
+      "map": {
+        "0": "and_gate_on",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    },
+    "or_off": {
+      "name": "or_off",
+      "map": {
+        "0": "or_gate_off",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    },
+    "or_on": {
+      "name": "or_on",
+      "map": {
+        "0": "or_gate_on",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    },
+    "xor_off": {
+      "name": "xor_off",
+      "map": {
+        "0": "xor_gate_off",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    },
+    "xor_on": {
+      "name": "xor_on",
+      "map": {
+        "0": "xor_gate_on",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    },
+    "secuence_off": {
+      "name": "secuence_off",
+      "map": {
+        "0": "secuence_off",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    },
+    "secuence_on": {
+      "name": "secuence_on",
+      "map": {
+        "0": "secuence_on",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    },
+    "timer_off": {
+      "name": "timer_off",
+      "map": {
+        "0": "timer_off",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    },
+    "timer_on": {
+      "name": "timer_on",
+      "map": {
+        "0": "timer_on",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    },
+    "timer_waiting": {
+      "name": "timer_waiting",
+      "map": {
+        "0": "timer_waiting",
+        "1": "minecraft:stonecutter_bottom"
+      }
+    }
+  }
+}

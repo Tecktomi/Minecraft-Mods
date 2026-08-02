@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.MOSSY_STONE_BRICK_SLAB"
+    ],
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": "Blocks.MOSSY_STONE_BRICK_SLAB",
+    "smeltingReturnStack": "Blocks.STONE_SLAB#5",
+    "name": "remove_moss_from_mossy_stone_bricks_slab",
+    "namespace": "minecraft"
+  }
+}

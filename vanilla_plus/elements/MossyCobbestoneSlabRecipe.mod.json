@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "mossy_cobbestone_slab",
+    "unlockingItems": [
+      "TAG:minecraft:mossy"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Blocks.STONE_SLAB#3",
+      "TAG:minecraft:mossy",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "Blocks.MOSSY_COBBLESTONE_SLAB",
+    "name": "mossy_cobbestone_slab_recipe",
+    "namespace": "mod"
+  }
+}

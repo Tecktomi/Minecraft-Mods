@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:anvil",
+    "minecraft:chipped_anvil",
+    "minecraft:damaged_anvil",
+    "minecraft:iron_trapdoor",
+    "minecraft:minecart",
+    "minecraft:iron_door",
+    "minecraft:iron_door"
+  ]
+}

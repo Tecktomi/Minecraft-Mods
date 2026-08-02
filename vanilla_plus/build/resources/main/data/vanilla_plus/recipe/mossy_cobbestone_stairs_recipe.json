@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mossy_cobbestone_stairs",
+  "category": "building",
+  "ingredients": [
+    "minecraft:cobblestone_stairs",
+    "#minecraft:mossy"
+  ],
+  "result": {
+    "id": "minecraft:mossy_cobblestone_stairs",
+    "count": 1
+  }
+}

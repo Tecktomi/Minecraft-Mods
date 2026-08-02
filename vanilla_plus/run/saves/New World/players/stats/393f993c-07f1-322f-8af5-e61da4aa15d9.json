@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:redstone": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 3521,
+      "minecraft:walk_one_cm": 10031,
+      "minecraft:total_world_time": 3532,
+      "minecraft:leave_game": 1,
+      "minecraft:crouch_one_cm": 12,
+      "minecraft:sneak_time": 30,
+      "minecraft:play_time": 3521,
+      "minecraft:jump": 7,
+      "minecraft:time_since_death": 3521
+    },
+    "minecraft:used": {
+      "minecraft:grass_block": 3,
+      "vanilla_plus:flip_flop": 1,
+      "minecraft:piston": 5,
+      "minecraft:lever": 6,
+      "vanilla_plus:and_gate_off": 1,
+      "minecraft:redstone": 21,
+      "vanilla_plus:xor_gate_off": 2
+    }
+  },
+  "DataVersion": 4790
+}

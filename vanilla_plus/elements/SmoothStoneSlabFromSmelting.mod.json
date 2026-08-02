@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.NORMAL_STONE_SLAB"
+    ],
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": "Blocks.NORMAL_STONE_SLAB",
+    "smeltingReturnStack": "Blocks.STONE_SLAB#0",
+    "name": "smooth_stone_slab_from_smelting",
+    "namespace": "mod"
+  }
+}

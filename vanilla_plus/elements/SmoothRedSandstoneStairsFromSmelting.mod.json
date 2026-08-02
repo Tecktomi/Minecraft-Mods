@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.RED_SANDSTONE_STAIRS"
+    ],
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": "Blocks.RED_SANDSTONE_STAIRS",
+    "smeltingReturnStack": "Blocks.SMOOTH_RED_SANDSTONE_STAIRS",
+    "name": "smooth_red_sandstone_stairs_from_smelting",
+    "namespace": "minecraft"
+  }
+}

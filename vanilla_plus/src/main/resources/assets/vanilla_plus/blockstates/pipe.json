@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "vanilla_plus:block/pipe"
+    },
+    "facing=east": {
+      "model": "vanilla_plus:block/pipe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "vanilla_plus:block/pipe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vanilla_plus:block/pipe",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "vanilla_plus:block/pipe",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "vanilla_plus:block/pipe",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Items.REPEATER",
+      "Items.REDSTONE_TORCH"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Items.REDSTONE_TORCH",
+      "Items.REPEATER",
+      "Items.REDSTONE_TORCH",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:FlipFlop",
+    "name": "flip_flop_recipe",
+    "namespace": "minecraft"
+  }
+}

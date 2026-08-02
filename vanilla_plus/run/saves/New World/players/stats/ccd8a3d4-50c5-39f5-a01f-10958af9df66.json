@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "vanilla_plus:flip_flop": 1,
+      "minecraft:lever": 5,
+      "minecraft:redstone": 8
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 514,
+      "minecraft:walk_one_cm": 1628,
+      "minecraft:total_world_time": 514,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 514,
+      "minecraft:time_since_death": 514
+    }
+  },
+  "DataVersion": 4790
+}

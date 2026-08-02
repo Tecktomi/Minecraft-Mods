@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1491,
+      "minecraft:walk_one_cm": 7777,
+      "minecraft:total_world_time": 1500,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 1491,
+      "minecraft:time_since_death": 1491
+    },
+    "minecraft:used": {
+      "minecraft:grass_block": 1,
+      "vanilla_plus:flip_flop": 3,
+      "minecraft:redstone_lamp": 4,
+      "minecraft:repeater": 4,
+      "minecraft:lever": 3,
+      "minecraft:redstone": 2
+    }
+  },
+  "DataVersion": 4790
+}

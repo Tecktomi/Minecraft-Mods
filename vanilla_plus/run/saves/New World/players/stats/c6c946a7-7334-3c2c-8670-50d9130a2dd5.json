@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "vanilla_plus:or_gate_off": 1,
+      "minecraft:lever": 5,
+      "vanilla_plus:and_gate_off": 1,
+      "minecraft:redstone": 12
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1012,
+      "minecraft:walk_one_cm": 1746,
+      "minecraft:total_world_time": 1032,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 153,
+      "minecraft:crouch_one_cm": 83,
+      "minecraft:sneak_time": 6,
+      "minecraft:play_time": 1012,
+      "minecraft:time_since_death": 1012
+    }
+  },
+  "DataVersion": 4790
+}

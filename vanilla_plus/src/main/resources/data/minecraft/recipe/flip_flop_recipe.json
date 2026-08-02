@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:redstone_torch",
+    "minecraft:repeater",
+    "minecraft:redstone_torch"
+  ],
+  "result": {
+    "id": "vanilla_plus:flip_flop",
+    "count": 1
+  }
+}

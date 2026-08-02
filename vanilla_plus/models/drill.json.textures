@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "minecraft:stonecutter_bottom",
+        "1": "minecraft:iron_block"
+      }
+    }
+  }
+}

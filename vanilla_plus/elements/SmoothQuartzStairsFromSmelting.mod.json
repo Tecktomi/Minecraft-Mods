@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.STONE_SLAB#7"
+    ],
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": "Blocks.STONE_SLAB#7",
+    "smeltingReturnStack": "Blocks.SMOOTH_QUARTZ_SLAB",
+    "name": "smooth_quartz_stairs_from_smelting",
+    "namespace": "minecraft"
+  }
+}

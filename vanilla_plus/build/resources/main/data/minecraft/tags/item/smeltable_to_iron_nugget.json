@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:rail",
+    "minecraft:bamboo_hanging_sign",
+    "minecraft:warped_hanging_sign",
+    "minecraft:mangrove_hanging_sign",
+    "minecraft:chainmail_boots",
+    "minecraft:heavy_weighted_pressure_plate",
+    "minecraft:crimson_hanging_sign",
+    "minecraft:lantern",
+    "minecraft:dark_oak_hanging_sign",
+    "minecraft:spruce_hanging_sign",
+    "minecraft:pale_oak_hanging_sign",
+    "minecraft:chainmail_chestplate",
+    "minecraft:iron_bars",
+    "minecraft:chainmail_helmet",
+    "minecraft:compass",
+    "minecraft:oak_hanging_sign",
+    "minecraft:jungle_hanging_sign",
+    "minecraft:iron_chain",
+    "minecraft:birch_hanging_sign",
+    "minecraft:soul_lantern",
+    "minecraft:cherry_hanging_sign",
+    "minecraft:chainmail_leggings",
+    "minecraft:recovery_compass",
+    "minecraft:detector_rail",
+    "minecraft:acacia_hanging_sign",
+    "minecraft:activator_rail"
+  ]
+}

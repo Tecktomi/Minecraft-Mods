@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "vanilla_plus:and_gate_off",
+    "vanilla_plus:or_gate_off",
+    "vanilla_plus:xor_gate_off"
+  ],
+  "result": {
+    "id": "vanilla_plus:secuence_off",
+    "count": 1
+  }
+}

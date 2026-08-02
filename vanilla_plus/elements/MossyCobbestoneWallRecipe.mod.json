@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "mossy_cobbestone_wall",
+    "unlockingItems": [
+      "TAG:minecraft:mossy"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Blocks.COBBLESTONE_WALL#0",
+      "TAG:minecraft:mossy",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "Blocks.COBBLESTONE_WALL#1",
+    "name": "mossy_cobbestone_wall_recipe",
+    "namespace": "mod"
+  }
+}

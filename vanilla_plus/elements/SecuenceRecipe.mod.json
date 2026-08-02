@@ -1,0 +1,33 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:AndGateOff",
+      "CUSTOM:OrGateOff",
+      "CUSTOM:XorGateOff"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "CUSTOM:AndGateOff",
+      "CUSTOM:OrGateOff",
+      "CUSTOM:XorGateOff",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:SecuenceOff",
+    "name": "secuence_recipe",
+    "namespace": "minecraft"
+  }
+}

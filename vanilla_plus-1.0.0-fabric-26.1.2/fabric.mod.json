@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "vanilla_plus",
+  "version": "1.0.0",
+  "name": "Vanilla Plus",
+  "authors": [
+    "MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.vanillaplus.VanillaPlusMod"
+    ],
+    "client": [
+      "net.mcreator.vanillaplus.VanillaPlusModClient"
+    ]
+  },
+  "mixins": [
+    "vanilla_plus.mixins.json"
+  ],
+  "accessWidener": "META-INF/vanilla_plus.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

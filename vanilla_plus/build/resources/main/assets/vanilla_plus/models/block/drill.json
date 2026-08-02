@@ -1,0 +1,9 @@
+{
+  "parent": "vanilla_plus:custom/drill",
+  "textures": {
+    "all": "minecraft:block/ancient_debris_top",
+    "particle": "minecraft:block/ancient_debris_top",
+    "0": "minecraft:block/stonecutter_bottom",
+    "1": "minecraft:block/iron_block"
+  }
+}

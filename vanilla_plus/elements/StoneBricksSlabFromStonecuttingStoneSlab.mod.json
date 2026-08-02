@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.NORMAL_STONE_SLAB"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": "Blocks.NORMAL_STONE_SLAB",
+    "stoneCuttingReturnStack": "Blocks.STONE_SLAB#5",
+    "name": "stone_bricks_slab_from_stonecutting_stone_slab",
+    "namespace": "minecraft"
+  }
+}

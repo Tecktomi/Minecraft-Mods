@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.STONE_STAIRS"
+    ],
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": "Blocks.STONE_STAIRS",
+    "smeltingReturnStack": "Blocks.NORMAL_STONE_STAIRS",
+    "name": "stone_stairs_from_smelting",
+    "namespace": "minecraft"
+  }
+}

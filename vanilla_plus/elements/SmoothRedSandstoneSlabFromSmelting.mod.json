@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.STONE_SLAB2"
+    ],
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": "Blocks.STONE_SLAB2",
+    "smeltingReturnStack": "Blocks.SMOOTH_RED_SANDSTONE_SLAB",
+    "name": "smooth_red_sandstone_slab_from_smelting",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "vanilla_plus:pipe",
+    "minecraft:comparator"
+  ],
+  "result": {
+    "id": "vanilla_plus:pipe_sorter",
+    "count": 1
+  }
+}

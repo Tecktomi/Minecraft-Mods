@@ -1,0 +1,9 @@
+{
+  "parent": "vanilla_plus:custom/logic_gate",
+  "textures": {
+    "all": "vanilla_plus:block/and_gate_off",
+    "particle": "vanilla_plus:block/and_gate_off",
+    "0": "vanilla_plus:block/and_gate_off",
+    "1": "minecraft:block/stonecutter_bottom"
+  }
+}

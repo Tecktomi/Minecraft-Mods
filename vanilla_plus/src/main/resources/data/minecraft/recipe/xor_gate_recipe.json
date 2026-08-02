@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "vanilla_plus:flip_flop",
+    "vanilla_plus:flip_flop",
+    "minecraft:redstone_torch",
+    "minecraft:redstone_torch"
+  ],
+  "result": {
+    "id": "vanilla_plus:xor_gate_off",
+    "count": 1
+  }
+}
