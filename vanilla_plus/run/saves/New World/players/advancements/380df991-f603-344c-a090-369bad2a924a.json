@@ -9053,21 +9053,27 @@
     },
     "done": true
   },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2026-08-02 13:04:06 -0400"
-    },
-    "done": true
-  },
   "vanilla_plus:recipes/timer_recipe": {
     "criteria": {
       "has_ingredient_0": "2026-08-02 13:02:07 -0400"
     },
     "done": true
   },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-08-02 13:04:06 -0400"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2026-08-02 13:05:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2026-08-02 19:13:54 -0400"
     },
     "done": true
   },

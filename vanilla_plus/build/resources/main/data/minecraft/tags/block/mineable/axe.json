@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "vanilla_plus:disk_editor",
+    "vanilla_plus:disk_reader_on",
+    "vanilla_plus:disk_reader_off"
+  ]
+}

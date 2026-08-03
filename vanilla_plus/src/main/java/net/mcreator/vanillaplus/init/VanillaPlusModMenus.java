@@ -19,6 +19,8 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.vanillaplus.world.inventory.TimerGUIMenu;
 import net.mcreator.vanillaplus.world.inventory.SecuenceGUIMenu;
 import net.mcreator.vanillaplus.world.inventory.PipeGuiMenu;
+import net.mcreator.vanillaplus.world.inventory.DiskReaderGUIMenu;
+import net.mcreator.vanillaplus.world.inventory.DiskEditorGUIMenu;
 import net.mcreator.vanillaplus.network.MenuStateUpdateMessage;
 import net.mcreator.vanillaplus.VanillaPlusMod;
 
@@ -29,6 +31,8 @@ public class VanillaPlusModMenus {
 	public static final DeferredHolder<MenuType<?>, MenuType<PipeGuiMenu>> PIPE_GUI = REGISTRY.register("pipe_gui", () -> IMenuTypeExtension.create(PipeGuiMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<SecuenceGUIMenu>> SECUENCE_GUI = REGISTRY.register("secuence_gui", () -> IMenuTypeExtension.create(SecuenceGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<TimerGUIMenu>> TIMER_GUI = REGISTRY.register("timer_gui", () -> IMenuTypeExtension.create(TimerGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<DiskEditorGUIMenu>> DISK_EDITOR_GUI = REGISTRY.register("disk_editor_gui", () -> IMenuTypeExtension.create(DiskEditorGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<DiskReaderGUIMenu>> DISK_READER_GUI = REGISTRY.register("disk_reader_gui", () -> IMenuTypeExtension.create(DiskReaderGUIMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

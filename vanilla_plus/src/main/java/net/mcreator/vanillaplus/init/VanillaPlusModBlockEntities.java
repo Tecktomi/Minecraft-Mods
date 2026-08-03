@@ -30,7 +30,9 @@ public class VanillaPlusModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TimerOffBlockEntity>> TIMER_OFF = register("timer_off", VanillaPlusModBlocks.TIMER_OFF, TimerOffBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TimerWaitingBlockEntity>> TIMER_WAITING = register("timer_waiting", VanillaPlusModBlocks.TIMER_WAITING, TimerWaitingBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TimerOnBlockEntity>> TIMER_ON = register("timer_on", VanillaPlusModBlocks.TIMER_ON, TimerOnBlockEntity::new);
-	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<DrillBlockEntity>> DRILL = register("drill", VanillaPlusModBlocks.DRILL, DrillBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<DiskEditorBlockEntity>> DISK_EDITOR = register("disk_editor", VanillaPlusModBlocks.DISK_EDITOR, DiskEditorBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<DiskReaderOffBlockEntity>> DISK_READER_OFF = register("disk_reader_off", VanillaPlusModBlocks.DISK_READER_OFF, DiskReaderOffBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<DiskReaderOnBlockEntity>> DISK_READER_ON = register("disk_reader_on", VanillaPlusModBlocks.DISK_READER_ON, DiskReaderOnBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -48,6 +50,8 @@ public class VanillaPlusModBlockEntities {
 		event.registerBlockEntity(Capabilities.Item.BLOCK, TIMER_OFF.get(), WorldlyContainerWrapper::new);
 		event.registerBlockEntity(Capabilities.Item.BLOCK, TIMER_WAITING.get(), WorldlyContainerWrapper::new);
 		event.registerBlockEntity(Capabilities.Item.BLOCK, TIMER_ON.get(), WorldlyContainerWrapper::new);
-		event.registerBlockEntity(Capabilities.Item.BLOCK, DRILL.get(), WorldlyContainerWrapper::new);
+		event.registerBlockEntity(Capabilities.Item.BLOCK, DISK_EDITOR.get(), WorldlyContainerWrapper::new);
+		event.registerBlockEntity(Capabilities.Item.BLOCK, DISK_READER_OFF.get(), WorldlyContainerWrapper::new);
+		event.registerBlockEntity(Capabilities.Item.BLOCK, DISK_READER_ON.get(), WorldlyContainerWrapper::new);
 	}
 }

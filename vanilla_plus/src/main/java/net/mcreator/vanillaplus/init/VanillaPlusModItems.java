@@ -11,6 +11,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.vanillaplus.item.EmptyDiskItem;
+import net.mcreator.vanillaplus.item.EditedDiskItem;
 import net.mcreator.vanillaplus.block.*;
 import net.mcreator.vanillaplus.VanillaPlusMod;
 
@@ -34,7 +36,11 @@ public class VanillaPlusModItems {
 	public static final DeferredItem<Item> TIMER_OFF;
 	public static final DeferredItem<Item> TIMER_WAITING;
 	public static final DeferredItem<Item> TIMER_ON;
-	public static final DeferredItem<Item> DRILL;
+	public static final DeferredItem<Item> DISK_EDITOR;
+	public static final DeferredItem<Item> EMPTY_DISK;
+	public static final DeferredItem<Item> EDITED_DISK;
+	public static final DeferredItem<Item> DISK_READER_OFF;
+	public static final DeferredItem<Item> DISK_READER_ON;
 	static {
 		FLIP_FLOP = register("flip_flop", FlipFlopBlock.Item::new);
 		FLIP_FLOP_ON = block(VanillaPlusModBlocks.FLIP_FLOP_ON);
@@ -52,7 +58,11 @@ public class VanillaPlusModItems {
 		TIMER_OFF = block(VanillaPlusModBlocks.TIMER_OFF);
 		TIMER_WAITING = block(VanillaPlusModBlocks.TIMER_WAITING);
 		TIMER_ON = block(VanillaPlusModBlocks.TIMER_ON);
-		DRILL = block(VanillaPlusModBlocks.DRILL);
+		DISK_EDITOR = block(VanillaPlusModBlocks.DISK_EDITOR);
+		EMPTY_DISK = register("empty_disk", EmptyDiskItem::new);
+		EDITED_DISK = register("edited_disk", EditedDiskItem::new);
+		DISK_READER_OFF = block(VanillaPlusModBlocks.DISK_READER_OFF);
+		DISK_READER_ON = block(VanillaPlusModBlocks.DISK_READER_ON);
 	}
 
 	// Start of user code block custom items

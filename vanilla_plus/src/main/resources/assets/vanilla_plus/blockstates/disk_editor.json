@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "vanilla_plus:block/disk_editor"
+    },
+    "facing=east": {
+      "model": "vanilla_plus:block/disk_editor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "vanilla_plus:block/disk_editor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vanilla_plus:block/disk_editor",
+      "y": 270
+    }
+  }
+}

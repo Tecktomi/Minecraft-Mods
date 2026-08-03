@@ -29,5 +29,13 @@
   "gui.vanilla_plus.timer_gui.value_prefix": "",
   "gui.vanilla_plus.timer_gui.label_steps": "Steps",
   "gui.vanilla_plus.timer_gui.value_suffix": "",
-  "item.vanilla_plus.drill": "Drill"
+  "item.vanilla_plus.disk_editor": "Disk Editor",
+  "gui.vanilla_plus.disk_editor_gui.button_clear": "Clear",
+  "gui.vanilla_plus.disk_editor_gui.button_push_1": "Push 1",
+  "gui.vanilla_plus.disk_editor_gui.button_push_0": "Push 0",
+  "gui.vanilla_plus.disk_editor_gui.button_pop": "Pop",
+  "item.vanilla_plus.empty_disk": "Empty Disk",
+  "item.vanilla_plus.edited_disk": "Edited Disk",
+  "item.vanilla_plus.disk_reader_off": "Disk Reader",
+  "item.vanilla_plus.disk_reader_on": "Disk Reader"
 }

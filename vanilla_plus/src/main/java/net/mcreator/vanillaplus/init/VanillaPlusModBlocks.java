@@ -32,7 +32,9 @@ public class VanillaPlusModBlocks {
 	public static final DeferredBlock<Block> TIMER_OFF;
 	public static final DeferredBlock<Block> TIMER_WAITING;
 	public static final DeferredBlock<Block> TIMER_ON;
-	public static final DeferredBlock<Block> DRILL;
+	public static final DeferredBlock<Block> DISK_EDITOR;
+	public static final DeferredBlock<Block> DISK_READER_OFF;
+	public static final DeferredBlock<Block> DISK_READER_ON;
 	static {
 		FLIP_FLOP = register("flip_flop", FlipFlopBlock::new);
 		FLIP_FLOP_ON = register("flip_flop_on", FlipFlopOnBlock::new);
@@ -50,7 +52,9 @@ public class VanillaPlusModBlocks {
 		TIMER_OFF = register("timer_off", TimerOffBlock::new);
 		TIMER_WAITING = register("timer_waiting", TimerWaitingBlock::new);
 		TIMER_ON = register("timer_on", TimerOnBlock::new);
-		DRILL = register("drill", DrillBlock::new);
+		DISK_EDITOR = register("disk_editor", DiskEditorBlock::new);
+		DISK_READER_OFF = register("disk_reader_off", DiskReaderOffBlock::new);
+		DISK_READER_ON = register("disk_reader_on", DiskReaderOnBlock::new);
 	}
 
 	// Start of user code block custom blocks

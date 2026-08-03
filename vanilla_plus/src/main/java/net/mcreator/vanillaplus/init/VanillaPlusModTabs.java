@@ -30,7 +30,9 @@ public class VanillaPlusModTabs {
 			tabData.accept(VanillaPlusModBlocks.PIPE_ROUTER.get().asItem());
 			tabData.accept(VanillaPlusModBlocks.SECUENCE_OFF.get().asItem());
 			tabData.accept(VanillaPlusModBlocks.TIMER_OFF.get().asItem());
-			tabData.accept(VanillaPlusModBlocks.DRILL.get().asItem());
+			tabData.accept(VanillaPlusModBlocks.DISK_EDITOR.get().asItem());
+			tabData.accept(VanillaPlusModItems.EMPTY_DISK.get());
+			tabData.accept(VanillaPlusModBlocks.DISK_READER_OFF.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(VanillaPlusModBlocks.PIPE.get().asItem());
 			tabData.accept(VanillaPlusModBlocks.PIPE_SORTER.get().asItem());
