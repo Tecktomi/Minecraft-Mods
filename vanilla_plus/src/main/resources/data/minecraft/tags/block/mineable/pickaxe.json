@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
+    "vanilla_plus:antena_emisora",
+    "vanilla_plus:antena_receptora_on",
     "vanilla_plus:pipe_router",
+    "vanilla_plus:antena_receptora_off",
     "vanilla_plus:pipe",
     "vanilla_plus:pipe_sorter"
   ]

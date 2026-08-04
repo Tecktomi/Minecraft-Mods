@@ -1,12 +1,11 @@
 {
-  "parent": "block/cube",
+  "parent": "vanilla_plus:custom/lector_de_discos",
   "textures": {
-    "down": "minecraft:block/jukebox_side",
-    "up": "minecraft:block/jukebox_top",
-    "north": "minecraft:block/jukebox_side",
-    "east": "minecraft:block/jukebox_side",
-    "south": "minecraft:block/jukebox_side",
-    "west": "minecraft:block/jukebox_side",
-    "particle": "minecraft:block/jukebox_side"
+    "all": "vanilla_plus:block/disk_reader_off",
+    "particle": "vanilla_plus:block/disk_reader_off",
+    "1": "vanilla_plus:block/disk_reader_off",
+    "2": "vanilla_plus:block/disk_reader_input",
+    "3": "minecraft:block/jukebox_top",
+    "4": "minecraft:block/jukebox_side"
   }
 }

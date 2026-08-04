@@ -1,0 +1,9 @@
+{
+  "parent": "vanilla_plus:custom/antena",
+  "textures": {
+    "all": "vanilla_plus:block/antena_receptora_on",
+    "particle": "vanilla_plus:block/antena_receptora_on",
+    "0": "vanilla_plus:block/antena_receptora_on",
+    "1": "minecraft:block/copper_block"
+  }
+}

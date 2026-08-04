@@ -37,5 +37,13 @@
   "item.vanilla_plus.empty_disk": "Empty Disk",
   "item.vanilla_plus.edited_disk": "Edited Disk",
   "item.vanilla_plus.disk_reader_off": "Disk Reader",
-  "item.vanilla_plus.disk_reader_on": "Disk Reader"
+  "item.vanilla_plus.disk_reader_on": "Disk Reader",
+  "item.vanilla_plus.antena_emisora": "Antena",
+  "item.vanilla_plus.antena_receptora_on": "Antena Receptora",
+  "item.vanilla_plus.antena_receptora_off": "Antena Receptora",
+  "block.vanilla_plus.timer_off.description_0": "Elige un tiempo en ticks y retrasará la señal",
+  "block.vanilla_plus.secuence_off.description_0": "Ingresa una secuencia de 1 y 0 para reproducirla cada vez que le llegue señal",
+  "block.vanilla_plus.disk_editor.description_0": "Borra viejos discos e ingresa una secuencia de 1 y 0 en ellos",
+  "block.vanilla_plus.disk_reader_off.description_0": "Reproduce la secuencia de 1 y 0 en los discos editados",
+  "block.vanilla_plus.antena_emisora.description_0": "Utiliza una brújula para vincular dos antenas, la señal de una se transmitirá a la otra"
 }

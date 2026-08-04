@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:lodestone",
+    "minecraft:observer",
+    "minecraft:lightning_rod"
+  ],
+  "result": {
+    "id": "vanilla_plus:antena_emisora",
+    "count": 1
+  }
+}

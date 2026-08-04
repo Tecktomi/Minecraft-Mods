@@ -1,0 +1,25 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "antena_emisora",
+        "1": "minecraft:copper_block"
+      }
+    },
+    "receptora_off": {
+      "name": "receptora_off",
+      "map": {
+        "0": "antena_receptora_off",
+        "1": "minecraft:copper_block"
+      }
+    },
+    "receptora_on": {
+      "name": "receptora_on",
+      "map": {
+        "0": "antena_receptora_on",
+        "1": "minecraft:copper_block"
+      }
+    }
+  }
+}

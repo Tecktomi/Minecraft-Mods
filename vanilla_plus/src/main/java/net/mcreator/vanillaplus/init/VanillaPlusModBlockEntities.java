@@ -33,6 +33,9 @@ public class VanillaPlusModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<DiskEditorBlockEntity>> DISK_EDITOR = register("disk_editor", VanillaPlusModBlocks.DISK_EDITOR, DiskEditorBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<DiskReaderOffBlockEntity>> DISK_READER_OFF = register("disk_reader_off", VanillaPlusModBlocks.DISK_READER_OFF, DiskReaderOffBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<DiskReaderOnBlockEntity>> DISK_READER_ON = register("disk_reader_on", VanillaPlusModBlocks.DISK_READER_ON, DiskReaderOnBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<AntenaEmisoraBlockEntity>> ANTENA_EMISORA = register("antena_emisora", VanillaPlusModBlocks.ANTENA_EMISORA, AntenaEmisoraBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<AntenaReceptoraOnBlockEntity>> ANTENA_RECEPTORA_ON = register("antena_receptora_on", VanillaPlusModBlocks.ANTENA_RECEPTORA_ON, AntenaReceptoraOnBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<AntenaReceptoraOffBlockEntity>> ANTENA_RECEPTORA_OFF = register("antena_receptora_off", VanillaPlusModBlocks.ANTENA_RECEPTORA_OFF, AntenaReceptoraOffBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -53,5 +56,8 @@ public class VanillaPlusModBlockEntities {
 		event.registerBlockEntity(Capabilities.Item.BLOCK, DISK_EDITOR.get(), WorldlyContainerWrapper::new);
 		event.registerBlockEntity(Capabilities.Item.BLOCK, DISK_READER_OFF.get(), WorldlyContainerWrapper::new);
 		event.registerBlockEntity(Capabilities.Item.BLOCK, DISK_READER_ON.get(), WorldlyContainerWrapper::new);
+		event.registerBlockEntity(Capabilities.Item.BLOCK, ANTENA_EMISORA.get(), WorldlyContainerWrapper::new);
+		event.registerBlockEntity(Capabilities.Item.BLOCK, ANTENA_RECEPTORA_ON.get(), WorldlyContainerWrapper::new);
+		event.registerBlockEntity(Capabilities.Item.BLOCK, ANTENA_RECEPTORA_OFF.get(), WorldlyContainerWrapper::new);
 	}
 }

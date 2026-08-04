@@ -40,7 +40,9 @@
     "customProperties": [],
     "name": "Timer",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Elige un tiempo en ticks y retrasará la señal"
+      ]
     },
     "hardness": 0.0,
     "resistance": 0.0,

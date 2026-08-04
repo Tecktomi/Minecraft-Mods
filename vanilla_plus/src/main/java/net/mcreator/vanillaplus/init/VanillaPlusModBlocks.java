@@ -35,6 +35,9 @@ public class VanillaPlusModBlocks {
 	public static final DeferredBlock<Block> DISK_EDITOR;
 	public static final DeferredBlock<Block> DISK_READER_OFF;
 	public static final DeferredBlock<Block> DISK_READER_ON;
+	public static final DeferredBlock<Block> ANTENA_EMISORA;
+	public static final DeferredBlock<Block> ANTENA_RECEPTORA_ON;
+	public static final DeferredBlock<Block> ANTENA_RECEPTORA_OFF;
 	static {
 		FLIP_FLOP = register("flip_flop", FlipFlopBlock::new);
 		FLIP_FLOP_ON = register("flip_flop_on", FlipFlopOnBlock::new);
@@ -55,6 +58,9 @@ public class VanillaPlusModBlocks {
 		DISK_EDITOR = register("disk_editor", DiskEditorBlock::new);
 		DISK_READER_OFF = register("disk_reader_off", DiskReaderOffBlock::new);
 		DISK_READER_ON = register("disk_reader_on", DiskReaderOnBlock::new);
+		ANTENA_EMISORA = register("antena_emisora", AntenaEmisoraBlock::new);
+		ANTENA_RECEPTORA_ON = register("antena_receptora_on", AntenaReceptoraOnBlock::new);
+		ANTENA_RECEPTORA_OFF = register("antena_receptora_off", AntenaReceptoraOffBlock::new);
 	}
 
 	// Start of user code block custom blocks

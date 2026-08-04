@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:jukebox",
+    "minecraft:crafter"
+  ],
+  "result": {
+    "id": "vanilla_plus:disk_editor",
+    "count": 1
+  }
+}

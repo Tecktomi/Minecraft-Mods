@@ -62,7 +62,7 @@ public class DiskReaderOffOnBlockRightclickedProcedure {
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
-			if (state >= disk.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getDoubleOr("state", 0)) {
+			if (state == disk.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getDoubleOr("state", 0)) {
 				if (!world.isClientSide()) {
 					BlockPos _bp = BlockPos.containing(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -114,63 +114,64 @@ public class DiskReaderOffOnBlockRightclickedProcedure {
 					}
 				}
 				return InteractionResult.SUCCESS;
-			}
-			if (disk.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getBooleanOr(("state_" + state), false) && blockstate.getBlock() == VanillaPlusModBlocks.DISK_READER_OFF.get()) {
-				{
-					BlockPos _bp = BlockPos.containing(x, y, z);
-					BlockState _bs = VanillaPlusModBlocks.DISK_READER_ON.get().defaultBlockState();
-					BlockState _bso = world.getBlockState(_bp);
-					for (Property<?> _propertyOld : _bso.getProperties()) {
-						Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
-						if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
-							try {
-								_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
-							} catch (Exception e) {
-							}
-					}
-					BlockEntity _be = world.getBlockEntity(_bp);
-					CompoundTag _bnbt = null;
-					if (_be != null) {
-						_bnbt = _be.saveWithFullMetadata(world.registryAccess());
-						_be.setRemoved();
-					}
-					world.setBlock(_bp, _bs, 3);
-					if (_bnbt != null) {
-						_be = world.getBlockEntity(_bp);
+			} else {
+				if (disk.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getBooleanOr(("state_" + state), false) && blockstate.getBlock() == VanillaPlusModBlocks.DISK_READER_OFF.get()) {
+					{
+						BlockPos _bp = BlockPos.containing(x, y, z);
+						BlockState _bs = VanillaPlusModBlocks.DISK_READER_ON.get().defaultBlockState();
+						BlockState _bso = world.getBlockState(_bp);
+						for (Property<?> _propertyOld : _bso.getProperties()) {
+							Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+							if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+								try {
+									_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+								} catch (Exception e) {
+								}
+						}
+						BlockEntity _be = world.getBlockEntity(_bp);
+						CompoundTag _bnbt = null;
 						if (_be != null) {
-							try {
-								_be.loadWithComponents(TagValueInput.create(ProblemReporter.DISCARDING, world.registryAccess(), _bnbt));
-							} catch (Exception ignored) {
+							_bnbt = _be.saveWithFullMetadata(world.registryAccess());
+							_be.setRemoved();
+						}
+						world.setBlock(_bp, _bs, 3);
+						if (_bnbt != null) {
+							_be = world.getBlockEntity(_bp);
+							if (_be != null) {
+								try {
+									_be.loadWithComponents(TagValueInput.create(ProblemReporter.DISCARDING, world.registryAccess(), _bnbt));
+								} catch (Exception ignored) {
+								}
 							}
 						}
 					}
-				}
-			} else if (!disk.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getBooleanOr(("state_" + state), false) && blockstate.getBlock() == VanillaPlusModBlocks.DISK_READER_ON.get()) {
-				{
-					BlockPos _bp = BlockPos.containing(x, y, z);
-					BlockState _bs = VanillaPlusModBlocks.DISK_READER_OFF.get().defaultBlockState();
-					BlockState _bso = world.getBlockState(_bp);
-					for (Property<?> _propertyOld : _bso.getProperties()) {
-						Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
-						if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
-							try {
-								_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
-							} catch (Exception e) {
-							}
-					}
-					BlockEntity _be = world.getBlockEntity(_bp);
-					CompoundTag _bnbt = null;
-					if (_be != null) {
-						_bnbt = _be.saveWithFullMetadata(world.registryAccess());
-						_be.setRemoved();
-					}
-					world.setBlock(_bp, _bs, 3);
-					if (_bnbt != null) {
-						_be = world.getBlockEntity(_bp);
+				} else if (!disk.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag().getBooleanOr(("state_" + state), false) && blockstate.getBlock() == VanillaPlusModBlocks.DISK_READER_ON.get()) {
+					{
+						BlockPos _bp = BlockPos.containing(x, y, z);
+						BlockState _bs = VanillaPlusModBlocks.DISK_READER_OFF.get().defaultBlockState();
+						BlockState _bso = world.getBlockState(_bp);
+						for (Property<?> _propertyOld : _bso.getProperties()) {
+							Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+							if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+								try {
+									_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+								} catch (Exception e) {
+								}
+						}
+						BlockEntity _be = world.getBlockEntity(_bp);
+						CompoundTag _bnbt = null;
 						if (_be != null) {
-							try {
-								_be.loadWithComponents(TagValueInput.create(ProblemReporter.DISCARDING, world.registryAccess(), _bnbt));
-							} catch (Exception ignored) {
+							_bnbt = _be.saveWithFullMetadata(world.registryAccess());
+							_be.setRemoved();
+						}
+						world.setBlock(_bp, _bs, 3);
+						if (_bnbt != null) {
+							_be = world.getBlockEntity(_bp);
+							if (_be != null) {
+								try {
+									_be.loadWithComponents(TagValueInput.create(ProblemReporter.DISCARDING, world.registryAccess(), _bnbt));
+								} catch (Exception ignored) {
+								}
 							}
 						}
 					}

@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "1": "disk_reader_off",
+        "2": "disk_reader_input",
+        "3": "minecraft:jukebox_top",
+        "4": "minecraft:jukebox_side"
+      }
+    },
+    "on": {
+      "name": "on",
+      "map": {
+        "1": "disk_reader_on",
+        "2": "disk_reader_input",
+        "3": "minecraft:jukebox_top",
+        "4": "minecraft:jukebox_side"
+      }
+    }
+  }
+}

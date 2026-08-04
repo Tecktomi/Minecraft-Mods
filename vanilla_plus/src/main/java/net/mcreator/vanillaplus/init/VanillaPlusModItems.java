@@ -41,6 +41,9 @@ public class VanillaPlusModItems {
 	public static final DeferredItem<Item> EDITED_DISK;
 	public static final DeferredItem<Item> DISK_READER_OFF;
 	public static final DeferredItem<Item> DISK_READER_ON;
+	public static final DeferredItem<Item> ANTENA_EMISORA;
+	public static final DeferredItem<Item> ANTENA_RECEPTORA_ON;
+	public static final DeferredItem<Item> ANTENA_RECEPTORA_OFF;
 	static {
 		FLIP_FLOP = register("flip_flop", FlipFlopBlock.Item::new);
 		FLIP_FLOP_ON = block(VanillaPlusModBlocks.FLIP_FLOP_ON);
@@ -53,16 +56,19 @@ public class VanillaPlusModItems {
 		PIPE = block(VanillaPlusModBlocks.PIPE);
 		PIPE_SORTER = block(VanillaPlusModBlocks.PIPE_SORTER);
 		PIPE_ROUTER = block(VanillaPlusModBlocks.PIPE_ROUTER);
-		SECUENCE_OFF = block(VanillaPlusModBlocks.SECUENCE_OFF);
+		SECUENCE_OFF = register("secuence_off", SecuenceOffBlock.Item::new);
 		SECUENCE_ON = block(VanillaPlusModBlocks.SECUENCE_ON);
-		TIMER_OFF = block(VanillaPlusModBlocks.TIMER_OFF);
+		TIMER_OFF = register("timer_off", TimerOffBlock.Item::new);
 		TIMER_WAITING = block(VanillaPlusModBlocks.TIMER_WAITING);
 		TIMER_ON = block(VanillaPlusModBlocks.TIMER_ON);
-		DISK_EDITOR = block(VanillaPlusModBlocks.DISK_EDITOR);
+		DISK_EDITOR = register("disk_editor", DiskEditorBlock.Item::new);
 		EMPTY_DISK = register("empty_disk", EmptyDiskItem::new);
 		EDITED_DISK = register("edited_disk", EditedDiskItem::new);
-		DISK_READER_OFF = block(VanillaPlusModBlocks.DISK_READER_OFF);
+		DISK_READER_OFF = register("disk_reader_off", DiskReaderOffBlock.Item::new);
 		DISK_READER_ON = block(VanillaPlusModBlocks.DISK_READER_ON);
+		ANTENA_EMISORA = register("antena_emisora", AntenaEmisoraBlock.Item::new);
+		ANTENA_RECEPTORA_ON = block(VanillaPlusModBlocks.ANTENA_RECEPTORA_ON);
+		ANTENA_RECEPTORA_OFF = block(VanillaPlusModBlocks.ANTENA_RECEPTORA_OFF);
 	}
 
 	// Start of user code block custom items

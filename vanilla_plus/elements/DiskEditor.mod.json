@@ -40,7 +40,9 @@
     "customProperties": [],
     "name": "Disk Editor",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Borra viejos discos e ingresa una secuencia de 1 y 0 en ellos"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,

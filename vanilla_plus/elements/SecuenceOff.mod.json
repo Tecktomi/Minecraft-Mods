@@ -46,7 +46,9 @@
     ],
     "name": "Secuence",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Ingresa una secuencia de 1 y 0 para reproducirla cada vez que le llegue señal"
+      ]
     },
     "hardness": 0.0,
     "resistance": 0.0,
